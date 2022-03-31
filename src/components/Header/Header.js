@@ -17,6 +17,9 @@ const Header = () => {
                     <CustomLink className=' Link btn-outline-dark' to="/friends">Friends</CustomLink>
                 </Nav.Item>
                 <Nav.Item>
+                    <CustomLink className=' Link btn-outline-dark' to="/Posts">Posts</CustomLink>
+                </Nav.Item>
+                <Nav.Item>
                     <CustomLink className='Link btn-outline-dark' to="/about" >
                         About
                     </CustomLink>
