@@ -3,12 +3,14 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './components/AboutUS/About';
 import Friends from './components/Friends/Friends';
+import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Notfound from './components/NotFound/Notfound';
 
 function App() {
   return (
     <div className="App">
+      <Header></Header>
       <h1>Welcome To React Router APP</h1>
       <Routes>
         <Route path='/home' element={<Home></Home>}></Route>
