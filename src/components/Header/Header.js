@@ -9,15 +9,18 @@ const Header = () => {
         <div>
 
             <h1>React Router Header</h1>
-            <Nav variant="tabs" defaultActiveKey="/home">
+            <Nav className='text-light' variant="tabs" defaultActiveKey="/home">
                 <Nav.Item>
-                    <CustomLink className=' Link  btn-outline-dark' to="/home">Home</CustomLink>
+                    <CustomLink className=' Link   btn-outline-dark' to="/home">Home</CustomLink>
                 </Nav.Item>
                 <Nav.Item>
                     <CustomLink className=' Link btn-outline-dark' to="/friends">Friends</CustomLink>
                 </Nav.Item>
                 <Nav.Item>
                     <CustomLink className=' Link btn-outline-dark' to="/Posts">Posts</CustomLink>
+                </Nav.Item>
+                <Nav.Item>
+                    <CustomLink className=' Link btn-outline-dark' to="/Countries">Countries</CustomLink>
                 </Nav.Item>
                 <Nav.Item>
                     <CustomLink className='Link btn-outline-dark' to="/about" >

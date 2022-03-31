@@ -3,4 +3,9 @@
     padding: 20px;
     background-color: rgba(154, 146, 146, 0.067);
     text-decoration: none;
+    /* color: aliceblue !important; */
+}
+
+.Link:hover {
+    color: aliceblue !important;
 }
